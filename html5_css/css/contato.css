@@ -1,0 +1,33 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+nav {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+form label, form p{
+    display: block;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 0 0 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.checkbox{
+    margin: 40px 0;
+}

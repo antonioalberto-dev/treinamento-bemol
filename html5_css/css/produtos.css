@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #BBB;
+    padding: 20px 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+header img {
+    width: 50px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.produtos li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.25%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 30px;
+}
+
+.produtos li:hover {
+    border-color: darkgoldenrod;
+    border-width: 5px;
+}
+
+.produtos li:active {
+    border-color: rgb(111, 214, 14);
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+
+.box {
+    position: relative;
+    /* width: 940px; */
+    margin: 0 auto;
+}
+
+
+nav {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+    color: black;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer {
+    background-image: url("./../img/bg.jpg");
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img{
+    width: 70px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 500;
+}
