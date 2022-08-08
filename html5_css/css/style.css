@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* navbar */
@@ -11,7 +11,7 @@ header {
 	padding: 20px 0;
 }
 
-header img{
+header img {
 	width: 70px;
 }
 
@@ -38,6 +38,7 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+	transition: 0.3s;
 }
 
 nav a:hover {
@@ -71,7 +72,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;	
+	border-color: #088C19;
 }
 
 .produtos li:hover h2 {
@@ -102,7 +103,7 @@ footer {
 	color: black;
 }
 
-footer img{
+footer img {
 	width: 100px;
 }
 
@@ -114,17 +115,13 @@ footer img{
 
 /* end: css footer */
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
 form {
 	margin: 40px 0;
 }
 
-form label, form legend {
-	display:block;
+form label,
+form legend {
+	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -136,7 +133,7 @@ form label, form legend {
 	width: 50%;
 }
 
-.turno{
+.turno {
 	margin: 20px 0;
 }
 
@@ -145,7 +142,7 @@ form label, form legend {
 }
 
 .enviar {
-	width:40%;
+	width: 40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -172,60 +169,104 @@ thead {
 	font-weight: bold;
 }
 
-td, th {
+td,
+th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
 
 /* CSS da página inicial */
-.banner{
+.banner {
 	width: 100%;
 }
 
-.titulo-principal{
+.titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
 }
 
-.principal p{
+.principal {
+	padding: 3em 0;
+	background-color: #fefefe;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
 	margin: 0 0 1em;
 	text-align: justify;
 }
 
-.principal strong{
+.principal strong {
 	font-weight: bold;
 }
 
-.principal em{
+.principal em {
 	font-style: italic;
 }
 
-.principal .utensilios{
+.principal .utensilios {
 	width: 130px;
 	float: left;
 	margin: 0 16px 16px 0;
 }
 
-.img-beneficios{
-	width: 60%;
-}
-
-.mapa{
+.mapa {
 	padding: 3em 0;
 }
 
-.mapa p{
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
 	margin: 0 0 2em;
 	text-align: center;
 }
 
-.video{
+.beneficios {
+	padding: 3em 0;
+	background-color: #888888;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.img-beneficios {
+	width: 60%;
+}
+
+.video {
 	width: 520px;
 	margin: 1em auto;
 }
 
-iframe{
+iframe {
 	border-radius: 12px;
+	box-shadow: 6px 7px 19px -1px rgba(0, 0, 0, 0.45);
+	transition: 0.5s;
+}
+
+iframe:hover {
+	transform: scale(1.1);
+	margin: 10px;
 }
