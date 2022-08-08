@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -25,7 +25,6 @@ nav {
 	position: absolute;
 	top: 38px;
 	right: 50px;
-    font-family: 'Poppins';
 }
 
 nav li {
@@ -101,7 +100,6 @@ footer {
 	background: url("../img/bg.jpg");
 	padding: 20px 0;
 	color: black;
-	font-family: 'Poppins';
 }
 
 footer img{
@@ -209,6 +207,25 @@ td, th {
 	float: left;
 	margin: 0 16px 16px 0;
 }
+
 .img-beneficios{
 	width: 60%;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video{
+	width: 520px;
+	margin: 1em auto;
+}
+
+iframe{
+	border-radius: 12px;
 }
