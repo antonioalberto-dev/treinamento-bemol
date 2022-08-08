@@ -4,12 +4,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* navbar */
+
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
 
-.caixa {
+header img{
+	width: 70px;
+}
+
+.box {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
@@ -17,8 +23,8 @@ header {
 
 nav {
 	position: absolute;
-	top: 110px;
-	right: 0;
+	top: 38px;
+	right: 50px;
     font-family: 'Poppins';
 }
 
@@ -37,8 +43,11 @@ nav a {
 
 nav a:hover {
 	color: #C78C19;
-	text-decoration: underline;
+	text-decoration: none;
+	font-size: 2em;
 }
+
+/* fim do css do navbar */
 
 .produtos {
 	width: 940px;
@@ -67,11 +76,11 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 30px;
 }
 
 .produtos h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
@@ -85,10 +94,18 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+/* begin: css footer */
+
 footer {
 	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+	background: url("../img/bg.jpg");
+	padding: 20px 0;
+	color: black;
+	font-family: 'Poppins';
+}
+
+footer img{
+	width: 100px;
 }
 
 .copyright {
@@ -96,6 +113,8 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
+
+/* end: css footer */
 
 main {
 	width: 940px;
@@ -117,6 +136,10 @@ form label, form legend {
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+}
+
+.turno{
+	margin: 20px 0;
 }
 
 .checkbox {
@@ -154,4 +177,38 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+/* CSS da página inicial */
+.banner{
+	width: 100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p{
+	margin: 0 0 1em;
+	text-align: justify;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.principal .utensilios{
+	width: 130px;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+.img-beneficios{
+	width: 60%;
 }
