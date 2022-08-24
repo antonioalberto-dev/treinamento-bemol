@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+}
+
+.container p {
+  text-align: center;
+}
