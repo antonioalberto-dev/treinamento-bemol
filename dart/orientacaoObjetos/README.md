@@ -33,3 +33,8 @@ Uma classe pode ter vários métodos construtores, porém, dentre os vários, s�
 Herança permite que classes compartilhem propriedades e métodos, através de (literalmente) "heranças".
 
 O principal objetivo de usar herança é reaproveitar código. Isso é feito usando o conceito de “generalização” e de “especificação”, onde a classe-mãe possui propriedades e métodos mais generalistas, enquanto as classes-filha tornam as propriedades e métodos mais específicos para seus objetivos.
+
+### Classes Abstratas
+
+- São moldes de métodos que devem estar obrigatoriamente nos objetos. 
+- De forma simples, nas classes abstratas são definidos **O QUE DEVE SER FEITO** e nas classes que a implementam é definido **COMO VAI SER FEITO**.

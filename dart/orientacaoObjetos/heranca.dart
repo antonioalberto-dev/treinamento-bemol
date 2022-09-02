@@ -5,6 +5,7 @@ void main(List<String> args) {
 
   print('${limao.nome}, ${limao.peso} gramas, ${limao.isAcida}');
   print(limao.fazerSuco());
+  limao.tempoFreezer();
 }
 
 class Frutas {
@@ -23,7 +24,7 @@ class Frutas {
   }
 }
 
-class FrutasCitricas extends Frutas {
+class FrutasCitricas extends Frutas implements Mousse {
   bool isAcida;
   FrutasCitricas(
       {required String nome,
@@ -31,4 +32,21 @@ class FrutasCitricas extends Frutas {
       required bool isMadura,
       required this.isAcida})
       : super(nome, peso, isMadura: isMadura);
+
+  @override
+  void cortarFruta() {}
+
+  @override
+  void prepararMousse() {}
+
+  @override
+  void tempoFreezer() {
+    print("20 min no congelador");
+  }
+}
+
+abstract class Mousse {
+  void cortarFruta();
+  void prepararMousse();
+  void tempoFreezer();
 }
