@@ -26,3 +26,8 @@ As variaveis do tipo VAR podem ser definidas depois da sua definição, porém, 
 # Static
 
 `Static` é um termo que indica quando um objeto deve manter seu valor independente da instância que atua sobre ela. Uma propriedade estática faz parte de uma classe, ou seja, não pode ser criada/instanciada por si só.
+
+# Encapsulamento
+
+É sobre gerenciar permissões. 
+Definir quais informações, atributos e metodos podem ser acessadas de forma publica ou restrita.
