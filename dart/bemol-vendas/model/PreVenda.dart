@@ -15,4 +15,13 @@ class PreVenda {
         .map((e) => e.valorDoItem ?? 0)
         .reduce((total, valorDoItem) => total + valorDoItem);
   }
+
+  bool get temPromocaoNaLista {
+    return itens.any((item) => item.produto?.temPromocao ?? false);
+  }
+  
+  bool get todosEmPromocao {
+    return itens.every((item) => item.produto?.temPromocao ?? false);
+  }
+
 }

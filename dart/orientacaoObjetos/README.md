@@ -38,3 +38,9 @@ O principal objetivo de usar herança é reaproveitar código. Isso é feito usa
 
 - São moldes de métodos que devem estar obrigatoriamente nos objetos. 
 - De forma simples, nas classes abstratas são definidos **O QUE DEVE SER FEITO** e nas classes que a implementam é definido **COMO VAI SER FEITO**.
+
+Elas são muito usadas para dar um caminho definido para todas as classes que a implementam. Ao criar uma classe abstrata, fazemos os seus métodos sem nenhuma ação, pois dessa forma, as ações são definidas apenas por aqueles que implementam a classe abstrata criada.
+
+## Polimorfismo
+
+O Polimorfismo nada mais é que a habilidade das nossas classes de alterar um método recebido por herança.
