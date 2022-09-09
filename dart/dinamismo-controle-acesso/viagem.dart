@@ -22,6 +22,6 @@ class Viagem {
   }
 
   void mostrarTransporte(){
-    print(transporte.toString().substring());
+    print(transporte.toString());
   }
 }
